@@ -5,9 +5,14 @@ Simplest method to change DBD regions without using scripts.
 1. Backup your `C:\Windows\System32\drivers\etc\hosts` by copying it anywhere else.
 2. [Download the zip](https://github.com/snoggles/dbd-hosts-file-overrides/archive/refs/heads/main.zip) of region-specific hosts files.
 3. Copy the `hosts` file for your target region over top of `C:\Windows\System32\drivers\etc\hosts`.
-4. Restart Dead by Daylight.
+4. Make Dead by Daylight run region detection by either:
+    - *Settings* > *General* > Revoke Consent (fast)
+    - Restarting DBD (slow)
 
 ## Default (closest) region
 Change back to your default region the same way.
 1. Copy your backup `hosts` file or [default/hosts](default/hosts) over top of `C:\Windows\System32\drivers\etc\hosts`.
 2. Restart Dead by Daylight.
+3. Make Dead by Daylight run region detection by either:
+    - *Settings* > *General* > Revoke Consent (fast)
+    - Restarting DBD (slow)
